@@ -8,21 +8,33 @@ This project predicts whether a product review is Positive, Negative, or Neutral
 
 
 🔐 User Login Page
+
 📝 Review Input Page
+
 🤖 Sentiment Prediction (Positive / Negative / Neutral)
+
 📊 Confidence Score Display
+
 ⭐ Star Rating Visualization
+
 💡 Clean and Simple UI
+
 ⚡ Fast predictions using ML model
+
 
 🛠️ Tech Stack
 
 
 Frontend: HTML, CSS
+
 Backend: Python, Flask
+
 Machine Learning:
+
 Logistic Regression
+
 TF-IDF Vectorization
+
 
 Libraries Used:
 
@@ -62,10 +74,15 @@ http://127.0.0.1:5000
 
 
 User logs in
+
 Enters a product review
+
 Text is converted using TF-IDF Vectorizer
+
 Model predicts sentiment using Machine Learning
+
 Output displayed with:
+
 Sentiment (Positive / Neutral / Negative)
 Confidence Score
 Star Rating ⭐
