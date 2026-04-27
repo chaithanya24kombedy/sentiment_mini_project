@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Sentiment Result</h2>
+
+    <div class="result-box">
+        <div class="sentiment {{ sentiment|lower }}">
+            {{ sentiment }}
+        </div>
+
+        <div class="stars">
+            {{ stars }}
+        </div>
+
+        <div class="confidence">
+            Confidence Score: <b>{{ confidence }}</b>
+        </div>
+    </div>
+
+    <a class="back-link" href="/review">Analyze Another Review</a>
+</div>
+
+</body>
+</html>
